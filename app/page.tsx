@@ -33,7 +33,7 @@ export default function LaInvencibleNG() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="https://files.catbox.moe/7x1m0g.png"
+              src="/images/logo.png"
               alt="La Invencible"
               className="w-14 h-14 object-contain"
             />
@@ -80,8 +80,7 @@ export default function LaInvencibleNG() {
       >
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?q=80&w=1600&auto=format&fit=crop"
-            alt="Campo"
+            src="/images/portada.jpg"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-slate-950/70" />
@@ -124,7 +123,7 @@ export default function LaInvencibleNG() {
           <div className="hidden lg:flex justify-end">
             <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-[40px] p-10 shadow-2xl max-w-md">
               <img
-                src="https://files.catbox.moe/7x1m0g.png"
+                src="/images/logo.png"
                 alt="Logo"
                 className="w-full object-contain"
               />
@@ -369,7 +368,7 @@ export default function LaInvencibleNG() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <img
-              src="https://files.catbox.moe/7x1m0g.png"
+              src="/images/logo.png"
               alt="Logo"
               className="w-14 h-14 object-contain"
             />
