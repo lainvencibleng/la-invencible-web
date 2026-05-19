@@ -272,7 +272,7 @@ export default function LaInvencibleNG() {
           </p>
 
           <h3 className="text-5xl font-black mb-8 leading-tight">
-            Confianza, relaciones y profesionalismo en cada operación.
+            Confianza, transparencia y profesionalismo en cada operación.
           </h3>
 
           <p className="text-slate-300 text-xl leading-relaxed max-w-4xl mx-auto">
