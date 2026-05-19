@@ -37,7 +37,7 @@ export default function LaInvencibleNG() {
 
             <div>
               <h1 className="text-2xl font-bold tracking-tight text-slate-900">
-                La Invencible
+                LA INVENCIBLE
               </h1>
               <p className="text-sm text-slate-500 tracking-wide uppercase">
                 Negocios Ganaderos
