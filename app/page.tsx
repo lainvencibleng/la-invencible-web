@@ -1,28 +1,25 @@
 export default function LaInvencibleNG() {
   const lots = [
     {
-      title: '120 Terneros Angus',
+      title: 'PROXIMAMENTE',
       category: 'Invernada',
-      weight: '180 kg',
-      location: 'Casilda, Santa Fe',
-      image:
-        'https://images.unsplash.com/photo-1516467508483-a7212febe31a?q=80&w=1200&auto=format&fit=crop',
+      weight: '0 Kg',
+      location: 'PROXIMAMENTE',
+      image: '/images/angusinvernada.jpg', 
     },
     {
-      title: '85 Novillitos',
-      category: 'Consumo',
-      weight: '320 kg',
-      location: 'Sur de Santa Fe',
-      image:
-        'https://images.unsplash.com/photo-1500595046743-cd271d694d30?q=80&w=1200&auto=format&fit=crop',
+      title: 'PROXIMAMENTE',
+      category: 'Terneros',
+      weight: '0 Kg',
+      location: 'PROXIMAMENTE',
+      image: '/images/angusternero1.jpg',
     },
     {
-      title: '60 Vaquillonas',
-      category: 'Cría',
-      weight: '290 kg',
-      location: 'Córdoba',
-      image:
-        'https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?q=80&w=1200&auto=format&fit=crop',
+      title: 'PROXIMAMENTE',
+      category: 'Vaca Faena',
+      weight: '0 Kg',
+      location: 'PROXIMAMENTE',
+      image: '/images/angusfaena.jpg',  
     },
   ]
 
@@ -93,11 +90,11 @@ export default function LaInvencibleNG() {
             </p>
 
             <h2 className="text-6xl font-black leading-tight text-white mb-8">
-              Negocios ganaderos con confianza y seriedad.
+              Negocios ganaderos con transparencia y seriedad.
             </h2>
 
             <p className="text-xl text-slate-200 leading-relaxed mb-10 max-w-2xl">
-              En La Invencible conectamos productores y compradores mediante
+              En La Invencible conectamos productores y compradores y propiciamos
               operaciones transparentes, ágiles y profesionales en el mercado
               ganadero argentino.
             </p>
@@ -141,12 +138,12 @@ export default function LaInvencibleNG() {
             </p>
 
             <h3 className="text-5xl font-black text-slate-900 mb-6">
-              Soluciones comerciales para el sector ganadero
+              Soluciones comerciales para el sector ganadero.
             </h3>
 
             <p className="text-slate-600 text-lg leading-relaxed">
-              Operamos con productores, feedlots y compradores brindando
-              seguimiento personalizado, confianza y rapidez en cada negocio.
+              Operamos con productores, feedlots, frigoríficos y compradores brindando
+              seguimiento personalizado, transparencia y rapidez en cada negocio.
             </p>
           </div>
 
@@ -203,7 +200,7 @@ export default function LaInvencibleNG() {
               </h3>
 
               <p className="text-slate-600 text-lg max-w-2xl">
-                Publicación profesional de lotes de invernada, cría y consumo.
+                Selección especial.
               </p>
             </div>
           </div>
@@ -331,12 +328,30 @@ export default function LaInvencibleNG() {
             </div>
           </div>
 
-          <div className="bg-white border border-slate-200 rounded-[40px] p-10 shadow-xl">
-            <h4 className="text-3xl font-black text-slate-900 mb-8">
-              Contacto rápido
-            </h4>
+<div className="bg-white border border-slate-200 rounded-[40px] p-10 shadow-xl"> 
+  <h4 className="text-3xl font-black text-slate-900 mb-8">
+    Contacto rápido
+  </h4>
 
-            <div className="space-y-5">
+  <div className="mb-8 flex flex-col items-center">
+    <img
+      src="/images/qr.png"
+      alt="QR WhatsApp"
+      className="w-40 h-40 object-contain rounded-2xl shadow-lg"
+    />
+
+    <img
+      src="/images/whatsapp.png"
+      alt="WhatsApp"
+      className="w-44 mt-4 object-contain"
+    />
+
+    <p className="text-sm text-slate-500 mt-4 text-center">
+      Escaneá el código para hablar por WhatsApp
+    </p>
+  </div>
+
+  <div className="space-y-5">
               <input
                 type="text"
                 placeholder="Nombre"
