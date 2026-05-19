@@ -260,7 +260,7 @@ export default function LaInvencibleNG() {
       <section className="bg-slate-950 text-white py-28 overflow-hidden relative">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?q=80&w=1600&auto=format&fit=crop"
+            src="/images/portada.jpg"
             alt="Campo"
             className="w-full h-full object-cover"
           />
