@@ -26,8 +26,8 @@ export default function LaInvencibleNG() {
   return (
     <div className="bg-white text-slate-900 min-h-screen">
       {/* HEADER */}
-      <header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur border-b border-slate-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+<header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-4">
             <img
               src="/images/logo.png"
@@ -60,15 +60,37 @@ export default function LaInvencibleNG() {
             </a>
           </nav>
 
-          <a
-            href="https://wa.me/5493464564564"
-            target="_blank"
-            className="bg-red-700 hover:bg-red-800 transition text-white px-5 py-3 rounded-2xl shadow-lg font-semibold"
-          >
-            WhatsApp
-          </a>
-        </div>
-      </header>
+<div className="flex items-center gap-3">
+  <a
+    href="https://wa.me/5493464621366"
+    target="_blank"
+    rel="noopener noreferrer"
+className="bg-[#25D366] hover:bg-[#1ebe5d] transition text-white px-5 py-3 rounded-2xl shadow-lg font-semibold tracking-wide"
+  >
+    WhatsApp
+  </a>
+
+  <a
+    href="https://instagram.com/lainvencibleng"
+    target="_blank"
+    rel="noopener noreferrer"
+className="bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] hover:opacity-90 transition text-white px-5 py-3 rounded-2xl shadow-lg font-bold tracking-wide"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="https://facebook.com/lainvencibleng"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-3 rounded-2xl shadow-lg font-semibold"
+  >
+    Facebook
+  </a>
+</div>
+
+</div>
+</header>
 
       {/* HERO */}
       <section
@@ -101,7 +123,7 @@ export default function LaInvencibleNG() {
 
             <div className="flex flex-wrap gap-5">
               <a
-                href="https://wa.me/5493464564564"
+                href="https://wa.me/5493464621366"
                 target="_blank"
                 className="bg-red-700 hover:bg-red-800 transition text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-xl"
               >
@@ -243,7 +265,7 @@ export default function LaInvencibleNG() {
                   </div>
 
                   <a
-                    href="https://wa.me/5493464564564"
+                    href="https://wa.me/5493464621366"
                     target="_blank"
                     className="inline-block mt-8 bg-red-700 hover:bg-red-800 transition text-white px-6 py-4 rounded-2xl font-semibold"
                   >
@@ -255,7 +277,94 @@ export default function LaInvencibleNG() {
           </div>
         </div>
       </section>
+{/* PROXIMOS REMATES */}
+<section className="py-24 bg-slate-100">
+  <div className="max-w-7xl mx-auto px-6">
 
+    <div className="text-center mb-16">
+      <p className="uppercase tracking-[0.25em] text-red-700 text-sm mb-4 font-semibold">
+        Eventos
+      </p>
+
+      <h3 className="text-5xl font-black text-slate-900">
+        Próximos Remates
+      </h3>
+    </div>
+
+    <div className="grid lg:grid-cols-3 gap-10">
+
+      {/* FERIA TOTORAS */}
+      <div className="bg-white rounded-[32px] overflow-hidden shadow-sm border border-slate-200">
+        <img
+          src="/images/rematetotoras.png"
+          alt="Remate 1"
+          className="w-full h-72 object-contain"
+        />
+
+        <div className="p-8">
+          <p className="text-red-700 font-bold mb-3">
+            Martes 19/5 10 am.
+          </p>
+
+          <h4 className="text-3xl font-black text-slate-900 mb-3">
+            Gordos y conserva.
+          </h4>
+
+          <p className="text-slate-600 text-lg">
+            Totoras / Fisico y online.
+          </p>
+        </div>
+      </div>
+
+      {/* FERIA PROVIDENCIA */}
+      <div className="bg-white rounded-[32px] overflow-hidden shadow-sm border border-slate-200">
+        <img
+          src="/images/remateprovidencia.png"
+          alt="Remate 2"
+          className="w-full h-72 object-contain"
+        />
+
+        <div className="p-8">
+          <p className="text-red-700 font-bold mb-3">
+            Miercoles 20/5 10 am.
+          </p>
+
+          <h4 className="text-3xl font-black text-slate-900 mb-3">
+            Gordos, conserva e invernada.
+          </h4>
+
+          <p className="text-slate-600 text-lg">
+            Providencia / Fisico y online.
+          </p>
+        </div>
+      </div>
+
+      {/* FERIA CAÑADA ROSQUIN */}
+      <div className="bg-white rounded-[32px] overflow-hidden shadow-sm border border-slate-200">
+        <img
+          src="/images/rematecanadarosquin.png"
+          alt="Remate 3"
+          className="w-full h-72 object-contain"
+        />
+
+        <div className="p-8">
+          <p className="text-red-700 font-bold mb-3">
+            Jueves 21/5 10 am.
+          </p>
+
+          <h4 className="text-3xl font-black text-slate-900 mb-3">
+           Gordos, conserva e invernada.
+          </h4>
+
+          <p className="text-slate-600 text-lg">
+            Cañada Rosquin / Fisico y online.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* ABOUT */}
       <section className="bg-slate-950 text-white py-28 overflow-hidden relative">
         <div className="absolute inset-0 opacity-10">
@@ -303,7 +412,7 @@ export default function LaInvencibleNG() {
             <div className="space-y-5 text-lg text-slate-700">
               <p>
                 <span className="font-bold text-slate-900">WhatsApp:</span>{' '}
-                +54 9 3464 564564
+                +5493464621366
               </p>
 
               <p>
@@ -351,29 +460,33 @@ export default function LaInvencibleNG() {
     </p>
   </div>
 
-  <div className="space-y-5">
-              <input
-                type="text"
-                placeholder="Nombre"
-                className="w-full border border-slate-300 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-red-700"
-              />
+<div className="space-y-5">
+  <input
+    type="text"
+    placeholder="Nombre"
+    className="w-full border border-slate-300 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-red-700"
+  />
 
-              <input
-                type="text"
-                placeholder="Teléfono"
-                className="w-full border border-slate-300 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-red-700"
-              />
+  <input
+    type="text"
+    placeholder="Teléfono"
+    className="w-full border border-slate-300 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-red-700"
+  />
 
-              <textarea
-                placeholder="Escribí tu consulta"
-                rows={5}
-                className="w-full border border-slate-300 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-red-700"
-              />
+  <textarea
+    placeholder="Escribí tu consulta"
+    rows={5}
+    className="w-full border border-slate-300 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-red-700"
+  />
 
-              <button className="w-full bg-red-700 hover:bg-red-800 transition text-white py-4 rounded-2xl text-lg font-semibold shadow-lg">
-                Enviar consulta
-              </button>
-            </div>
+  <a
+    href="https://wa.me/5493464621366"
+    target="_blank"
+    className="block text-center w-full bg-red-700 hover:bg-red-800 transition text-white py-4 rounded-2xl text-lg font-semibold shadow-lg"
+  >
+    Enviar consulta
+  </a>
+</div>
           </div>
         </div>
       </section>
