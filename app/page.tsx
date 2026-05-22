@@ -60,12 +60,12 @@ className="w-16 h-16 object-cover rounded-full shadow-lg"
             </a>
           </nav>
 
-<div className="flex items-center gap-3">
+<div className="flex items-center gap-2 flex-wrap md:flex-nowrap">
   <a
     href="https://wa.me/5493464621366"
     target="_blank"
     rel="noopener noreferrer"
-className="bg-[#25D366] hover:bg-[#1ebe5d] transition text-white px-5 py-3 rounded-2xl shadow-lg font-semibold tracking-wide"
+className="bg-[#25D366] hover:bg-[#1ebe5d] transition text-white px-3 md:px-5 py-2 md:py-3 rounded-2xl shadow-lg font-semibold tracking-wide text-sm md:text-base"
   >
     WhatsApp
   </a>
@@ -74,7 +74,7 @@ className="bg-[#25D366] hover:bg-[#1ebe5d] transition text-white px-5 py-3 round
     href="https://instagram.com/lainvencibleng"
     target="_blank"
     rel="noopener noreferrer"
-className="bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] hover:opacity-90 transition text-white px-5 py-3 rounded-2xl shadow-lg font-bold tracking-wide"
+className="bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] hover:opacity-90 transition text-white px-3 md:px-5 py-2 md:py-3 rounded-2xl shadow-lg font-bold tracking-wide text-sm md:text-base"
   >
     Instagram
   </a>
@@ -83,7 +83,7 @@ className="bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] hover:opac
     href="https://facebook.com/lainvencibleng"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-blue-600 hover:bg-blue-700 transition text-white px-5 py-3 rounded-2xl shadow-lg font-semibold"
+className="bg-blue-600 hover:bg-blue-700 transition text-white px-3 md:px-5 py-2 md:py-3 rounded-2xl shadow-lg font-semibold text-sm md:text-base"
   >
     Facebook
   </a>
