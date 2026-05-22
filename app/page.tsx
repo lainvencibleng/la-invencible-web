@@ -32,7 +32,7 @@ export default function LaInvencibleNG() {
             <img
               src="/images/logo.png"
               alt="La Invencible"
-              className="w-14 h-14 object-contain"
+className="w-16 h-16 object-cover rounded-full shadow-lg"
             />
 
             <div>
@@ -498,7 +498,7 @@ className="bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] hover:opac
             <img
               src="/images/logo.png"
               alt="Logo"
-              className="w-14 h-14 object-contain"
+className="w-16 h-16 object-cover rounded-full shadow-lg"
             />
 
             <div>
